@@ -1,22 +1,26 @@
-"Custom vimrc for John C. Lendvoy
+"""""""""""""""""""""""""""""""""""""""""""""""
+" Personalized vimrc file for John C. Lendvoy "
+"""""""""""""""""""""""""""""""""""""""""""""""
 
-" do not cut words on the edge of a line 
-set linebreak
-
-" scroll before reaching top or bottom of screen
+" scroll before reaching edge of page
 set scrolloff=3
 
-"remap esc to jk
+" do not cut words when wrapping around on a line
+set linebreak
+
+" remap esc to jk or kj
 imap jk <Esc>
 imap kj <Esc>
 
-
-"allow backspace to work in windows
-set backspace=2
-
+" save buffer with spacebar
+map <space> :w<cr>
 
 " set color theme
 colo desert
+
+" draw a vertical line at the 81st column
+" set colorcolumn=81
+" hi ColorColumn ctermbg=Grey ctermfg=Black
 
 " statusline
 " cf the default statusline: %<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
@@ -58,11 +62,13 @@ set number
 :au WinEnter * :set winfixheight
 :au WinEnter * :wincmd =
 
-" size of a hard tabstop                                                         
-set tabstop=4                                                                    
-" size of an indent                                                              
-set shiftwidth=4                                                                 
-" a combination of spaces and tabs are used to simulate tab stops at a width     
-" other than the (hard)tabstop                                                   
-set softtabstop=4          
+
+" size of a hard tabstop
+set tabstop=4
+" size of an indent
+set shiftwidth=4
+" a combination of spaces and tabs are used to simulate tab stops at a width
+" other than the (hard)tabstop
+set softtabstop=4
+
 
