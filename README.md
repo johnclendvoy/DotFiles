@@ -1,4 +1,4 @@
-John Lendvoy's Dot Files
+##John Lendvoy's Dot Files
 
 Custom config for:
 
