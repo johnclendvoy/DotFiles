@@ -1,4 +1,12 @@
 # Author: John C. Lendvoy
+# .bashrc or .bash_profile for shell settings
+
+
+# ALIASES
+
+alias la="ls -a";
+alias ll="ls -l";
+
 
 # LARAVEL ALIASES
 
@@ -7,6 +15,7 @@ alias a="php artisan";
 alias mig="php artisan migrate";
 alias roll="php artisan migrate:rollback";
 alias mm="php artisan make:migration";
+
 
 # DIRECTORY SHORTCUTS
 
