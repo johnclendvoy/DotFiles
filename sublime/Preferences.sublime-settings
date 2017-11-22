@@ -1,0 +1,13 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"fade_fold_buttons": false,
+	"font_size": 15,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+	],
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
+	"vintage_start_in_command_mode": true
+}
